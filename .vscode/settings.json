@@ -1,0 +1,27 @@
+{
+    "azureFunctions.projectRuntime": "~2",
+    "azureFunctions.projectLanguage": "TypeScript",
+    "azureFunctions.templateFilter": "Verified",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.preDeployTask": "prune",
+    "files.exclude": {
+      "obj": true,
+      "bin": true
+    },
+    "debug.internalConsoleOptions": "neverOpen",
+    "appService.zipIgnorePattern": [
+      ".vscode{,/**}",
+      "node_modules{,/**}"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false,
+ 
+    "workbench.colorCustomizations": {
+      "titleBar.activeBackground": "#111110",
+      "titleBar.activeForeground": "#d8dce0",
+     
+    },
+    "peacock.color": "#f9e64f",
+    "editor.formatOnSaveMode": "modifications"
+  }
+  
